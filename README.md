@@ -1,0 +1,12 @@
+# 使用技術
+- 言語
+  - PHP 8.0.18
+  - Laravel Framework 8.83.9
+  - react 18.0.0
+- 開発環境
+  - Docker 20.10.12 / docker-compose 1.29.2
+  - mysql 8.0.28
+  - macOS Big Sur 12.2.1
+  - Visual Studio Code
+- バージョン管理
+  - Git 2.34.1
