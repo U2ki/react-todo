@@ -9,13 +9,13 @@ use App\Models\Task;
 class TaskController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Tasks
      *
-     * @return \Illuminate\Http\Response
+     * @return Task[]|\Illuminate\Database\Eloquent\Collection
      */
     public function index()
     {
-        //
+        return Task::orderByDesc('id')->get();
     }
 
     /**
